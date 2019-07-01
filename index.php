@@ -7,7 +7,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 }
 $uri .= $_SERVER['HTTP_HOST'];
 // echo 'hello din globe-bank';
-header('Location: '.$uri.'/globe-bank/public/');
+header('Location: '.$uri.'/work/globe-bank/public/');
 exit;
 
 ?>
